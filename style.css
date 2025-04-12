@@ -1,0 +1,56 @@
+body{
+font-family:sans-serif; 
+margin: 0;
+}
+.navbar{
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    gap: 40px;
+    font-size: 16px;
+    align-items: center;
+}
+
+a {
+text-decoration: none; 
+color: #ff6ba8;
+}
+
+ #logo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+
+ }
+ .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff5fa;
+    height: 550px;
+ }
+ #picture{
+    width: 20%; 
+
+ }
+ .text{
+    max-width: 50% ;
+    color: #131313;
+ }
+.text h1{
+    font-size: 35px;
+    color: #ff6ba8;
+
+}
+
+.text p{
+   margin-top: 20px;
+font-size: 20px;
+color: #444
+}
